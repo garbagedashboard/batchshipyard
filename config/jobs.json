@@ -1,0 +1,14 @@
+{
+    "job_specifications": [
+        {
+            "id": "job",
+            "tasks": [
+                {
+                    "image": "example/daisy",
+                    "remove_container_after_exit": true,
+                    "command": "sudo /home/docker/converter.sh 2017 03 01 2017 04 01"
+		}
+            ]
+        }
+    ]
+}

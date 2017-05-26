@@ -1,0 +1,15 @@
+{
+    "batch_shipyard": {
+        "storage_account_settings": "mystorageaccount"
+    },
+    "docker_registry": {
+        "private": {
+            "server": "[privaite register account].azurecr.io"
+        }
+    },
+    "global_resources": {
+        "docker_images": [
+            "example/daisy"
+        ]
+    }
+}
