@@ -5,7 +5,10 @@ You must agree to the [Caffe License](https://github.com/BVLC/caffe/blob/master/
 prior to use.
 
 Step 1: create docker image
-cd docker; sudo docker build -t daisyazcopy .; docker images
+* cd docker; 
+* sudo docker build -t daisyazcopy .; 
+* docker images
+* sudo docker run --name docker -it daisyazcopy
 step 2: publish image to azure container registry
 sudo docker login [account].azurecr.io -u [user] -p [passowrd]
 
